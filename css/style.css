@@ -6,6 +6,7 @@ body{
 
 header, footer{
 	text-align: center;
+	margin-top: 25px;
 }
 
 #container{
@@ -25,7 +26,7 @@ header, footer{
 	background-color: #333;
 	color: #fff;
 	padding: 10px;
-	margin-bottom: 25px;
+	
 }
 
 
