@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>My Note</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>MyNote</h1>
+	</header>
+
+	<section id="container">
+		<div id="note" contenteditable="true" onkeyup="saveNote(this.id)">
+		</div>
+	</section>
+
+	<footer>
+		<div><a href="" onclick="javascript:clearNote();" class="clear">Clear Note</a></div>
+
+		<a href="https://github.com/oBrunoFreitas" target="_blank" >Bruno Freitas</a> &copy 2017
+	</footer>
+
+	<script>
+		getNote();
+	</script>
+</body>
+</html>
